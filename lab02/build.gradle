@@ -1,1 +1,17 @@
+plugins {
+	id 'application'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.apache.commons:commons-csv:1.6'
+}
+
+task application {
+	mainClassName = 'CSVDemo'
+}
+
 apply plugin: 'java'
