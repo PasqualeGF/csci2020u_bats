@@ -56,12 +56,8 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectId" id="1YhI3JaGaKxBzvNtaxH0g7UVGyj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1YYNiDkv4jCP37GinbXCXXgmWoH" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -110,7 +106,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="Q2" />
+      <module name="lab06" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -184,33 +180,29 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1583453177663">
+    <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1583385511052">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583453177663" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1583453186343">
+    <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583385511052" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1583385524852">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583453186343" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1583453186342">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583385524852" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1583385524852">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583453186342" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1583453186342">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583385524852" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1583385524852">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583453186342" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1583453186342">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583385524852" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1583385524852">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583453186342" />
-    <state x="91" y="44" key="new project wizard" timestamp="1583453181760">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583385524852" />
+    <state x="91" y="44" key="new project wizard" timestamp="1583385516150">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="91" y="44" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1583453181760" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1583390938916">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1583390938916" />
+    <state x="91" y="44" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1583385516150" />
   </component>
 </project>
