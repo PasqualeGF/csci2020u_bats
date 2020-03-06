@@ -8,6 +8,8 @@ Please ensure you are within the correct folder (csci2020u_bats/assignment1).
 
 Each question is in its respective folder. Question 1 is in Q1, etc.
 
+You can use each of these folders as an IntelliJ project folder and compile/run within IntelliJ.
+
 The main code for each question is within the src folder.
 For example, for question 1, open: Q1/src/sample/Main.java.
 
