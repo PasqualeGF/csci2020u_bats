@@ -191,22 +191,26 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584305654854">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584327326721">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584305654854" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584305654854">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584327326721" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584327326720">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584305654854" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584305654854">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584327326720" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584327326720">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584305654854" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584305654854">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584327326720" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584327326721">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584305654854" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584327326721" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1584325798514">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584325798514" />
     <state x="310" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584298555529">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

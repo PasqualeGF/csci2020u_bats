@@ -5,10 +5,13 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 import javafx.stage.FileChooser;
@@ -16,6 +19,7 @@ import javafx.stage.Stage;
 import javafx.event.Event;
 
 import java.io.*;
+import java.text.DecimalFormat;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -201,12 +205,73 @@ public class Main extends Application {
         // Add all options to menu
         menuFile.getItems().addAll(menuNew,menuOpen,menuSave,menuSaveAs,menuExit);
 
+        // Add adding text boxes and buttons
+        // Create grid
+        GridPane grid = new GridPane();
+        grid.setAlignment(Pos.TOP_LEFT);
+        grid.setHgap(10);
+        grid.setVgap(10);
+        grid.setPadding(new Insets(5, 10, 10, 10));
+
+        // Create each appropriate label and text field for the 4 parameters
+        // Investment amount label and text field
+        Label studentID = new Label("SID:");
+        grid.add(studentID, 0, 1);
+        TextField sIDTextField = new TextField();
+        sIDTextField.setPromptText("SID");
+        grid.add(sIDTextField, 1, 1);
+
+        // Number of assignments label and text field
+        Label assignments = new Label("Assignments:");
+        grid.add(assignments, 2, 1);
+
+        TextField asmtTextField = new TextField();
+        asmtTextField.setPromptText("Assignments/100");
+        grid.add(asmtTextField, 3, 1);
+
+        // Annual rate label and text field
+        Label midterms = new Label("Midterm:");
+        grid.add(midterms, 0, 2);
+
+        TextField midTextField = new TextField();
+        midTextField.setPromptText("Midterm/100");
+        grid.add(midTextField, 1, 2);
+
+        // Future value label and text field
+        Label exam = new Label("Final Exam:");
+        grid.add(exam, 2, 2);
+
+        TextField examTextField = new TextField();
+        examTextField.setPromptText("Final Exam/100");
+        grid.add(examTextField, 3, 2);
+
+        // Create button to execute calculation
+        Button btn = new Button("Add");
+        HBox hbBtn = new HBox(10);
+        hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
+        hbBtn.getChildren().add(btn);
+        grid.add(hbBtn, 0, 3);
+
+        // Set button action to do calculation
+        btn.setOnAction(e -> {
+            String sID = String.valueOf(sIDTextField.getText());
+            Double asmt = Double.valueOf(asmtTextField.getText());
+            Double mid = Double.valueOf(midTextField.getText());
+            Double finalExam = Double.valueOf(examTextField.getText());
+            StudentRecord addition = new StudentRecord(sID,asmt,mid,finalExam);
+            ObservableList<StudentRecord> resetTable = load(currentFilename);
+            resetTable.add(addition);
+            table.getItems().clear();
+            table.setItems(resetTable);
+
+        });
+
         // Create vbox with menu and table
         final VBox vbox = new VBox();
         vbox.setSpacing(5);
         vbox.setPadding(new Insets(10, 0, 0, 10));
         vbox.getChildren().addAll(menuBar);
-        vbox.getChildren().addAll(label, table);
+        vbox.getChildren().addAll(label, table,grid);
 
 
         ((Group) scene.getRoot()).getChildren().addAll(vbox);
