@@ -51,6 +51,13 @@
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -60,7 +67,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectId" id="1ZVnrIooXlo2hm0U5dG4vgiE4nG" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectId" id="1Zm5dFrqSVheZhBlchZtuSOADt7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -71,7 +84,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -79,17 +91,11 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Client">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -115,24 +121,22 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="lab09" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration name="Client" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Client" />
+      <module name="lab10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Server" />
+      <module name="lab10" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="sample.Server" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,6 +172,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -191,41 +199,29 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="471" y="25" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1584941286040">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585432199350">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="471" y="25" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1584941286040" />
-    <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1585011141880">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585432199350" />
+    <state x="371" y="125" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585432197710">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585011141880" />
-    <state width="1222" height="163" key="GridCell.Tab.0.bottom" timestamp="1585011922685">
+    <state x="371" y="125" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1585432197710" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585515285955">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585011922685" />
-    <state width="1222" height="163" key="GridCell.Tab.0.center" timestamp="1585011922685">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585515285955" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585515285954">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585011922685" />
-    <state width="1222" height="163" key="GridCell.Tab.0.left" timestamp="1585011922685">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585515285954" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585515285954">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585011922685" />
-    <state width="1222" height="163" key="GridCell.Tab.0.right" timestamp="1585011922685">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585515285954" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585515285955">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585011922685" />
-    <state x="315" y="40" key="NewModule_or_Project.wizard" timestamp="1585011169116">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="315" y="40" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1585011169116" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1584941288282">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584941288282" />
-    <state x="375" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584941279664">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="375" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1584941279664" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585515285955" />
   </component>
 </project>
